@@ -1,0 +1,1 @@
+{ "name": "usage-meter", "version": "0.4.2", "description": "5時間・週間の使用量とリセットまでの時間をゲージで表示", "types": "./types/index.d.ts" }

@@ -1,0 +1,7 @@
+{
+  "name": "ryota-mods",
+  "owner": { "name": "ryota" },
+  "plugins": [
+    { "name": "usage-meter", "source": "./plugins/usage-meter", "description": "5時間・週間の使用量、サブエージェント一覧、完了通知" }
+  ]
+}
