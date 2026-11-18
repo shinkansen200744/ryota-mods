@@ -8,18 +8,19 @@ Claude Code 用の mod（プラグイン）集です。
 
 ### 入れ方（1行）
 
-ターミナルで次の1行を実行します（`<owner>` はこのリポジトリを置いた GitHub のユーザー名）。
+Windows（PowerShell）：
+
+```powershell
+irm <owner>.github.io/ryota-mods/i.ps1 | iex
+```
+
+Mac・Linux：
 
 ```sh
-claude plugin marketplace add <owner>/ryota-mods && claude plugin install usage-meter@ryota-mods
+curl -fsSL <owner>.github.io/ryota-mods/i | sh
 ```
 
-Claude Code の中で入れる場合は、次の2行です。
-
-```
-/plugin marketplace add <owner>/ryota-mods
-/plugin install usage-meter@ryota-mods
-```
+Claude Code に「<owner>/ryota-mods の usage-meter を入れて」と頼んでも入ります。
 
 入れたあと、Claude Code を開き直すか `/reload-plugins` を実行すると、パネルが出ます。
 
