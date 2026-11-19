@@ -11,16 +11,16 @@ Claude Code 用の mod（プラグイン）集です。
 Windows（PowerShell）：
 
 ```powershell
-irm <owner>.github.io/ryota-mods/i.ps1 | iex
+irm shinkansen200744.github.io/ryota-mods/i.ps1 | iex
 ```
 
 Mac・Linux：
 
 ```sh
-curl -fsSL <owner>.github.io/ryota-mods/i | sh
+curl -fsSL shinkansen200744.github.io/ryota-mods/i | sh
 ```
 
-Claude Code に「<owner>/ryota-mods の usage-meter を入れて」と頼んでも入ります。
+Claude Code に「shinkansen200744/ryota-mods の usage-meter を入れて」と頼んでも入ります。
 
 入れたあと、Claude Code を開き直すか `/reload-plugins` を実行すると、パネルが出ます。
 
